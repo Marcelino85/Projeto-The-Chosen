@@ -95,8 +95,9 @@ li:hover{
 }
 
 #megaButton{
-    width: 60%;
+    width: 90%;
     text-align: center;
+    margin-top: 10px;
     
 }
 .botao{
@@ -126,7 +127,9 @@ li:hover{
     color: #F2E7DC;
     font-size: 19px;
     font-family: 'Kdam+Thmor+Pro', sans-serif;
-    width: 70%;
+    width: 90%;
+    
+    
 }
 
 footer{
@@ -154,6 +157,7 @@ span{
 
 }
 
+/* 
 @media(max-width:768px){
     .footer-navigation{
         display: block;
@@ -189,7 +193,7 @@ span{
     }
 
     #sinopse{
-        width: 95%;
+        width: 9 5%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -212,4 +216,158 @@ span{
     }
 
 
+} */
+
+@media  (max-width:768px) {
+
+    body{
+        height: 100vh;
+    }
+
+    #banner{
+        background-position: 100%;
+    }
+    
+    nav{
+        display: none;
+    }
+    
+    #traller-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .traller{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+        
+
+    }
+    .description{
+        width: 100%;
+       
+    }
+
+    .botao{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .footer-navigation{
+        display: flex;
+    }
+    .footer-list{
+        display: flex;
+       flex-direction :column;
+       align-items: center;
+    
+    }
+
+    footer{
+        height: 200px;
+        margin-top: 50px;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+
+
 }
+
+@media (max-width:600px) {
+
+    body{
+        height: 100vh;
+    }
+
+    nav{
+        display: none;
+    }
+    #banner{
+        background-position: 100%;
+    }
+    
+    #traller-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .traller{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+
+    .description{
+        width: 100%;
+       
+    }
+
+    #megaButton{
+        width: 90%;
+    }
+
+    .botao{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .footer-navigation{
+        display: flex;
+    }
+    .footer-list{
+        display: flex;
+       flex-direction :column;
+       align-items: center;
+    
+    }
+
+    footer{
+        height: 200px;
+        margin-top: 110%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+}
+
+
